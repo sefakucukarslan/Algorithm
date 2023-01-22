@@ -1,0 +1,9 @@
+﻿Linear Search
+
+Linear Search (Doğrusal Arama) algoritması, verilen bir dizide bir elemanın aranmasını içermektedir. 
+Algoritma, dizinin ilk elemanından başlayarak, elemanları sırayla kontrol eder ve aradığınız elemanı bulursa, 
+o elemanın indeksini döndürür. Bulunamazsa, -1 döndürür.
+
+Linear Search algoritması, dizinin boyutu kadar en fazla adımda gerçekleşir ve dizinin boyutu büyüdükçe arama 
+performansı düşer. Bu nedenle, büyük diziler için daha hızlı arama algoritmaları kullanmak daha iyidir. 
+Örneğin, Binary Search algoritması, dizinin boyutu büyüdükçe daha hızlı çalışır ve dizinin sıralı olmasını gerektirir.

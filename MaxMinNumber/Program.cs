@@ -10,7 +10,7 @@ namespace MaxMinNumber
     {
         static void Main(string[] args)
         {
-            int[] numbers = { 5, 8, 1, 3, 9, 2, 7, 6, 4};
+            int[] numbers = { 5, 8, 1, 3, 9, 2, 7, 6, 4 };
 
             int max = numbers[0];
             int min = numbers[0];

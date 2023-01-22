@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEvenNumbers", "OddEvenNu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxMinNumber", "MaxMinNumber\MaxMinNumber.csproj", "{AB04B17B-A442-40D4-8186-C6C33A697636}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearSearch", "LinearSearch\LinearSearch.csproj", "{CC329A68-D312-4B14-B5C2-B7C1095E92F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C87B53F7-9A62-428D-91CF-A1C2BDEAB7CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AB04B17B-A442-40D4-8186-C6C33A697636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB04B17B-A442-40D4-8186-C6C33A697636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB04B17B-A442-40D4-8186-C6C33A697636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC329A68-D312-4B14-B5C2-B7C1095E92F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC329A68-D312-4B14-B5C2-B7C1095E92F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC329A68-D312-4B14-B5C2-B7C1095E92F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC329A68-D312-4B14-B5C2-B7C1095E92F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87B53F7-9A62-428D-91CF-A1C2BDEAB7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87B53F7-9A62-428D-91CF-A1C2BDEAB7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87B53F7-9A62-428D-91CF-A1C2BDEAB7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87B53F7-9A62-428D-91CF-A1C2BDEAB7CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
