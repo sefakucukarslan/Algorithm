@@ -1,0 +1,7 @@
+﻿Binary Search Algoritma arama işlemi için dizinin ortasından başlar ve aranan eleman ortadaki elemandan daha büyükse, 
+arama sağ tarafa, daha küçükse sol tarafa yönelir. Bu şekilde dizinin yarısından elimine edilir ve arama 
+hala devam eder. Bu işlem dizinin ucuna kadar devam eder ve eleman bulunursa, o elemanın indeksini döndürür. 
+Bulunamazsa, -1 döndürür.
+
+Binary Search algoritması, dizinin boyutu kadar logaritmik adımda gerçekleşir ve dizinin boyutu büyüdükçe 
+arama performansı azalmaz. Ancak, dizinin sıralı olması gerekir ve dizi sıralı değilse önce sıralanması gerekir.
