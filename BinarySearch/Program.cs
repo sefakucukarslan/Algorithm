@@ -10,25 +10,40 @@ namespace BinarySearch
     {
         static int BinarySearch(int[] arr, int x)
         {
-            int left = 0, right = arr.Length - 1;
-            while (left <= right)
+            int left = arr.Length - 1, right = 0;
+            while (left >= right)
             {
                 int mid = (left + right) / 2;
                 if (arr[mid] == x)
                     return mid;
                 else if (arr[mid] < x)
-                    left = mid + 1;
+                    right = mid + 1;
                 else
-                    right = mid - 1;
+                    left = mid - 1;
             }
             return -1;
+
+
+
+            //int left = 0, right = arr.Length - 1;
+            //while (left <= right)
+            //{
+            //    int mid = (left + right) / 2;
+            //    if (arr[mid] == x)
+            //        return mid;
+            //    else if (arr[mid] < x)
+            //        left = mid + 1;
+            //    else
+            //        right = mid - 1;
+            //}
+            //return -1;
         }
 
         static void Main(string[] args)
         {
             int[] arr = { 2, 3, 4, 10, 40 };
             Array.Sort(arr);
-            int x = 101;
+            int x = 3;
             int result = BinarySearch(arr, x);
             if (result == -1)
                 Console.WriteLine("Element is not present in array");
