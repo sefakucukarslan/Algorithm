@@ -1,0 +1,13 @@
+﻿Insertion sort algoritması, verilen bir diziyi sıralamak için kullanılan bir sıralama algoritmasıdır. 
+Algoritma, dizinin ilk elemanını kabul eder ve dizinin geri kalanını bir döngü içinde kontrol eder. 
+Her adımda, döngü içinde gezilen eleman, dizinin ilk elemanından itibaren sıralı bir şekilde yerleştirilir. 
+Bu şekilde, dizi sıralanır ve sıralı hali dizinin ilk elemanından son elemanına kadar devam eder.
+
+Insertion sort algoritmasının temel fikri, dizinin ilk elemanının sıralı olduğu bir alt dizi oluşturmaktır. 
+Algoritma her iterasyonunda bir elemanı bu alt diziye ekler ve yerine yerleştirir. 
+Bu yüzden, algoritma dizinin başındaki elemanlar için çok hızlıdır, çünkü bunlar zaten sıralıdır. 
+Ancak, dizinin sonunda elemanlar için algoritma daha yavaş çalışır, çünkü bunlar sıralanmadığından dizinin 
+sonuna doğru daha fazla eleman eklemek zorunda kalır.
+
+Insertion sort algoritması, küçük diziler için veya dizinin çoğunlukla sıralı olduğu durumlarda etkilidir. 
+Ancak, dizinin büyüklüğü büyüdükçe, performans düşer ve daha hızlı sıralama algoritmaları kullanmak daha iyidir.
