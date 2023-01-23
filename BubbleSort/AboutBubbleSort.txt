@@ -1,0 +1,5 @@
+﻿Bubble Sort 
+
+Dizideki her elemanı komşusu ile karşılaştırır ve eğer komşusu daha büyükse, yerlerini değiştirir. 
+Bu işlem dizinin sonuna kadar devam eder ve böylece en büyük eleman dizinin sonuna taşınır. 
+Bu işlem tekrar edilir ve her seferinde en büyük eleman dizinin sonuna taşınır ve böylece dizi sıralanmış hale gelir.
