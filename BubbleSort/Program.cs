@@ -15,7 +15,7 @@ namespace BubbleSort
             Console.WriteLine("Original array : ");
             PrintArray(array);
 
-            bubbleSort(array);
+            BubbleSort(array);
 
             Console.WriteLine("Sorted array : ");
             PrintArray(array);
@@ -31,7 +31,7 @@ namespace BubbleSort
             }
             Console.WriteLine();
         }
-        static void bubbleSort(int[] array)
+        static void BubbleSort(int[] array)
         {
             int temp;
             for (int i = 0; i < array.Length - 1; i++)
