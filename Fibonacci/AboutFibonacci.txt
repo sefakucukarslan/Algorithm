@@ -1,0 +1,3 @@
+﻿Fibonacci algoritması, Fibonacci serisi olarak bilinen bir sayı dizisini üretir. 
+Bu seride her sayı, önceki iki sayının toplamıdır. Serinin ilk iki elemanı genellikle 0 ve 1 olarak kabul 
+edilir ve dizi aşağıdaki şekilde devam eder: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
