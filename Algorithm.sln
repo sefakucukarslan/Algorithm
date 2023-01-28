@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumber", "PrimeNumber\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{64D37FA2-EA47-408E-B8B4-CDC812FCCFBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciRecursive", "FibonacciRecursive\FibonacciRecursive.csproj", "{40ED866B-BB6F-4E6F-BCE7-27A56C7CCBE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfOddNumbers", "SumOfOddNumbers\SumOfOddNumbers.csproj", "{AA72D336-673C-45FC-B4B9-EBD144F1B7AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{64D37FA2-EA47-408E-B8B4-CDC812FCCFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D37FA2-EA47-408E-B8B4-CDC812FCCFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D37FA2-EA47-408E-B8B4-CDC812FCCFBE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40ED866B-BB6F-4E6F-BCE7-27A56C7CCBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40ED866B-BB6F-4E6F-BCE7-27A56C7CCBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40ED866B-BB6F-4E6F-BCE7-27A56C7CCBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40ED866B-BB6F-4E6F-BCE7-27A56C7CCBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA72D336-673C-45FC-B4B9-EBD144F1B7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA72D336-673C-45FC-B4B9-EBD144F1B7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA72D336-673C-45FC-B4B9-EBD144F1B7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA72D336-673C-45FC-B4B9-EBD144F1B7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
