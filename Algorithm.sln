@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank-3", "Hackerrank-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank-4", "Hackerrank-4\Hackerrank-4.csproj", "{1A8D3E5B-BD12-407A-BA9F-CCCB092B7F3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deneme", "Deneme\Deneme.csproj", "{DBDE53BA-40E8-419B-AF15-AF1D4FCB89B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{1A8D3E5B-BD12-407A-BA9F-CCCB092B7F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A8D3E5B-BD12-407A-BA9F-CCCB092B7F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A8D3E5B-BD12-407A-BA9F-CCCB092B7F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBDE53BA-40E8-419B-AF15-AF1D4FCB89B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBDE53BA-40E8-419B-AF15-AF1D4FCB89B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBDE53BA-40E8-419B-AF15-AF1D4FCB89B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBDE53BA-40E8-419B-AF15-AF1D4FCB89B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
