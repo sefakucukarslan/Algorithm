@@ -10,7 +10,9 @@ namespace RomanToInteger
     {
         static void Main(string[] args)
         {
+            int[] nums = { 1, 2, 3, 4 };
             Deneme deneme = new Deneme();
+            int result =  deneme.ContainsDuplicate(nums);
             int c = deneme.RomanToInt("IX");
             Console.WriteLine(c);
             Console.ReadLine();

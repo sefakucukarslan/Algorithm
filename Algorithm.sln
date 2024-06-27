@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Common Prefix", "Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Staircase", "Staircase\Staircase.csproj", "{63169520-583E-4722-95AA-A5B490178795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{A0573E34-3A9A-489F-8719-E2E7A26117ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrangeStrings", "ArrangeStrings\ArrangeStrings.csproj", "{44EC42A3-D429-4819-A1E7-9D412DC51317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{63169520-583E-4722-95AA-A5B490178795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63169520-583E-4722-95AA-A5B490178795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63169520-583E-4722-95AA-A5B490178795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0573E34-3A9A-489F-8719-E2E7A26117ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0573E34-3A9A-489F-8719-E2E7A26117ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0573E34-3A9A-489F-8719-E2E7A26117ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0573E34-3A9A-489F-8719-E2E7A26117ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EC42A3-D429-4819-A1E7-9D412DC51317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EC42A3-D429-4819-A1E7-9D412DC51317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EC42A3-D429-4819-A1E7-9D412DC51317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EC42A3-D429-4819-A1E7-9D412DC51317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -46,16 +46,7 @@ namespace Hackerrank_1
 
         public bool CheckFirstStringWithSecondString(string firstString, string secondString)
         {
-            int count = 0;
-
-            if (firstString.Length <= secondString.Length)
-            {
-                count = firstString.Length;
-            }
-            else
-            {
-                count = secondString.Length;
-            }
+            int count = Math.Min(firstString.Length,secondString.Length);
 
             for (int i = 0; i < count; i++)
             {

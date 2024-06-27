@@ -19,7 +19,14 @@ namespace Hackerrank_3
             deviceNames.Add("mixer");
 
             Deneme deneme = new Deneme();
+
             List<string> newDeviceNames = deneme.DeviceNameSystem(deviceNames);
+
+            foreach (var item in newDeviceNames)
+            {
+                Console.WriteLine(item);
+            }
+
             Console.ReadLine();
         }
     }

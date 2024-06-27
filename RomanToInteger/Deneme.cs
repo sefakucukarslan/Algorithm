@@ -31,5 +31,30 @@ namespace RomanToInteger
 
             return result + romanDigits[s[s.Length - 1]];
         }
+
+        public int ContainsDuplicate(int[] nums)
+        {
+            //for (int i = 0; i < nums.Length - 1; i++)
+            //{
+            //    for (int j = i; j < nums.Length - 1; j++)
+            //        if (nums[i] == nums[j + 1])
+            //        {
+            //            return true;
+            //        }
+            //}
+            //return false;
+
+            HashSet<int> set = new HashSet<int>();
+
+            foreach (var num in nums)
+            {
+                if (set.Contains(num))
+                {
+                    return num;
+                }
+                set.Add(num);
+            }
+            return -1;
+        }
     }
 }

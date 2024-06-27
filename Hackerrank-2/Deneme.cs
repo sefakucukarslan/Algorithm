@@ -19,10 +19,10 @@ namespace Hackerrank_2
                     uniqueCount = 0;
                     for (int j = i + 1; j < devicenames.Count; j++)
                     {
-                        if (devicenames[j] == devicenames[i])
+                        if (devicenames[i] == devicenames[j])
                         {
                             uniqueCount++;
-                            devicenames[j] = devicenames[i] + uniqueCount;
+                            devicenames[j] += uniqueCount;
                         }
                     }
                 }

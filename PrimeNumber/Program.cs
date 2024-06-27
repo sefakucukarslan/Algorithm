@@ -10,14 +10,14 @@ namespace PrimeNumber
     {
         static void Main(string[] args)
         {
-            int n, i, j, flag;
+            int n, flag;
             Console.Write("Enter a number: ");
             n = int.Parse(Console.ReadLine());
 
-            for (i = 2; i <= n; i++)
+            for (int i = 2; i <= n; i++)
             {
                 flag = 0;
-                for (j = 2; j <= i / 2; j++)
+                for (int j = 2; j <= i / 2; j++)
                 {
                     if (i % j == 0)
                     {
